@@ -5,7 +5,7 @@ int main()
     int i,j,n;
     char a[100][100],b[1000];
     scanf("%d",&n);
-    for(i=0;i<=n-1;i++)
+    for(i=0;i<n;i++)
     {
         scanf("%s" ,a[i]);
     }
