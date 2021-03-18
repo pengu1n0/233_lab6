@@ -18,5 +18,19 @@ int main()
             B[y]=z;
         }
         else if(A[0]=='P')
+        {
+            scanf("%d %d" ,&a,&b);
+            sum=B[a];
+            for(j=a+1;j<=b;j++)
+            {
+                if(B[j]>sum)
+                {
+                    sum=B[j];
+                }
+            }
+            printf("%d\n" ,sum);
+        }
+    }
+    return 0;
         
 }
